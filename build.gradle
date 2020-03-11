@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'yearnlune.lab'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:2.1.4.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
